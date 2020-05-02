@@ -185,7 +185,7 @@ def train(env):
 
 
         if episode % log_interval == 0:
-            log_f.write('Ep {}\tLast score: {:.2f}\tMoving average score: {:.2f}\n'.format(episode, score, running_score))
+            log_f.write('{},{:.2f},{:.2f}\n'.format(episode, score, running_score))
             log_f.flush()
             print('Ep {}\tLast score: {:.2f}\tMoving average score: {:.2f}'.format(episode, score, running_score))
 
