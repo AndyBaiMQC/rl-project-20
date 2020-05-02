@@ -1,6 +1,6 @@
-# rl-project-20
+# COMP 767 - Reinforcement Learning Final Project
 
-COMP 767 - Reinforcement Learning Final Project
+Policy Gradient Methods on Continuous Control Case Study - OpenAI Gym CarRacing-v0
 
 # Algorithms Implemented:
 
