@@ -1,7 +1,8 @@
 Recommend to run on GPU:
 
-To train on Colab/Notebook:
-!xvfb-run -a -s "-screen 0 1400x900x24 +extension RANDR" -- python car_racing.py [-algo, 'TD3' or 'DDPG']
+To run on Colab:
+Run Train.ipynb on Colab
 
-To train on local machine with GUI:
+To run on local machine with GUI:
+pip install -r requirements.txt
 python car_racing.py [-algo, 'TD3' or 'DDPG']
